@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do List</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <div class="container">
+        <h1>To-do List</h1>
+        <div class="input-container">
+            <input type="text" id=g"taskInput" placeholder="Enter a task...">
+            <button onclick="addTask()">+</button>
+        </div>
+        <ul id="taskList"></ul>
+        <div class="task-count">
+            <span id="completedCount">1 of 2 tasks done</span>
+            <button onclick="removeCheckedTasks()">Remove checked</button>
+        </div>
+        <div>
+            <h3 class="made-By">Made By "Deepak"</h3></div>
+    </div>
+    <script src="script1.js"></script>
+</body>
+</html>
